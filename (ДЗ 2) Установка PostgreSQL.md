@@ -1,5 +1,7 @@
 ***создать ВМ с Ubuntu 20.04/22.04 или развернуть докер любым удобным способом***\
-Привет
+Стек\\ 
+Virtual Box 7.2.4; https://www.virtualbox.org/wiki/Downloads
+Используется Ubuntu Server 25.10; ссылка https://ubuntu.com/download/server#release-notes-tab-lts
 
 ***поставить на нем Docker Engine***\
 Привет
