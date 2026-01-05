@@ -31,7 +31,7 @@
 ***перенесите содержимое /var/lib/postgres/15 в /mnt/data - mv /var/lib/postgresql/15/mnt/data***  
 Привет
 
-***попытайтесь запустить кластер - sudo -u postgres pg_ctlcluster 15 main start***
+***попытайтесь запустить кластер - sudo -u postgres pg_ctlcluster 15 main start***  
 **напишите получилось или нет и почему**  
 Привет
 
@@ -39,7 +39,7 @@
 **напишите что и почему поменяли**   
 Привет
 
-***попытайтесь запустить кластер - sudo -u postgres pg_ctlcluster 15 main start***
+***попытайтесь запустить кластер - sudo -u postgres pg_ctlcluster 15 main start***  
 **напишите получилось или нет и почему**  
 Привет
 
