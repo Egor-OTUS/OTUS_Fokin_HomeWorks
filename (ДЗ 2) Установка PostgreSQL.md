@@ -5,7 +5,7 @@
 Привет
 
 ***сделать каталог /var/lib/postgres***\
-Привет
+<img width="396" height="50" alt="image" src="https://github.com/user-attachments/assets/8417904e-2c32-470e-9a21-76b8cb4722ff" />
 
 ***развернуть контейнер с PostgreSQL 15 смонтировав в него /var/lib/postgresql***\
 Привет
