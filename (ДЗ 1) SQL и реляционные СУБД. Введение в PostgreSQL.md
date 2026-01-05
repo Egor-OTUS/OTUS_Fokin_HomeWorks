@@ -18,7 +18,7 @@
 ***сделать в первой сессии новую таблицу и наполнить ее данными create table persons(id serial, first_name text, second_name text); insert into persons(first_name, second_name) values('ivan', 'ivanov'); insert into persons(first_name, second_name) values('petr', 'petrov'); commit;***  
 Привет
 
-***посмотреть текущий уровень изоляции: show transaction isolation level***
+***посмотреть текущий уровень изоляции: show transaction isolation level***  
 Привет
 
 ***начать новую транзакцию в обоих сессиях с дефолтным (не меняя) уровнем изоляции***  
@@ -33,8 +33,8 @@
 Привет
 
 ***сделать select from persons во второй сессии***  
-**видите ли вы новую запись и если да то почему?**  
-**завершите транзакцию во второй сессии**  
+**видите ли вы новую запись и если да то почему?**    
+**завершите транзакцию во второй сессии**   
 Привет
 
 ***начать новые но уже repeatable read транзации - set transaction isolation level repeatable read;***  
@@ -43,16 +43,16 @@
 ***в первой сессии добавить новую запись insert into persons(first_name, second_name) values('sveta', 'svetova');***  
 Привет
 
-***сделать select* from persons во второй сессии***
-**видите ли вы новую запись и если да то почему?**
+***сделать select* from persons во второй сессии***  
+**видите ли вы новую запись и если да то почему?**  
 **завершить первую транзакцию - commit;**  
 Привет
 
-***сделать select from persons во второй сессии***
-**видите ли вы новую запись и если да то почему?**
+***сделать select from persons во второй сессии***  
+**видите ли вы новую запись и если да то почему?**  
 **завершить вторую транзакцию**  
 Привет
 
-***сделать select * from persons во второй сессии***
+***сделать select * from persons во второй сессии***  
 **видите ли вы новую запись и если да то почему?**  
 Привет
