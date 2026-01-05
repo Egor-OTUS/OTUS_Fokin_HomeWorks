@@ -1,5 +1,5 @@
 ***создать ВМ с Ubuntu 20.04/22.04 или развернуть докер любым удобным способом***\
-Стек*  
+Стек\*  
 Virtual Box 7.2.4  
 https://www.virtualbox.org/wiki/Downloads   
 Ubuntu Server 25.10, т.к. версия новее требующейся  
