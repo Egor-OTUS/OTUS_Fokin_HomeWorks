@@ -5,10 +5,13 @@ https://www.virtualbox.org/wiki/Downloads
 Ubuntu Server 25.10, т.к. версия новее требующейся  
 https://ubuntu.com/download/server#release-notes-tab-lts 
 
-Характеристики ВМ  
+Характеристики ВМ
+RAM: 16GB  
 <img width="1632" height="334" alt="image" src="https://github.com/user-attachments/assets/e485eeb4-da53-4134-bec6-a7bde0645535" />
-<img width="1625" height="157" alt="image" src="https://github.com/user-attachments/assets/0cf9feb6-c2b5-4f7b-bdf3-f0f34fa805c8" />
-
+CPU: 8 cores
+<img width="1629" height="347" alt="image" src="https://github.com/user-attachments/assets/553764b0-4c85-4a0b-ad24-78a814b8084d" />
+VDI(SSD): 200GB
+<img width="894" height="443" alt="image" src="https://github.com/user-attachments/assets/c0380803-eb86-4e0d-9a75-bc93e9fc2207" />
 
 
 ***поставить на нем Docker Engine***\
