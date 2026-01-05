@@ -5,6 +5,12 @@ https://www.virtualbox.org/wiki/Downloads
 Ubuntu Server 25.10, т.к. версия новее требующейся  
 https://ubuntu.com/download/server#release-notes-tab-lts 
 
+Характеристики ВМ  
+<img width="1632" height="334" alt="image" src="https://github.com/user-attachments/assets/e485eeb4-da53-4134-bec6-a7bde0645535" />
+<img width="1625" height="157" alt="image" src="https://github.com/user-attachments/assets/0cf9feb6-c2b5-4f7b-bdf3-f0f34fa805c8" />
+
+
+
 ***поставить на нем Docker Engine***\
 Привет
 
