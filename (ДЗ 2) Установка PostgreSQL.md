@@ -5,7 +5,7 @@ https://www.virtualbox.org/wiki/Downloads
 Ubuntu Server 25.10, т.к. версия новее требующейся  
 https://ubuntu.com/download/server#release-notes-tab-lts 
 
-Характеристики ВМ
+Характеристики ВМ  
 RAM: 16GB  
 <img width="1632" height="334" alt="image" src="https://github.com/user-attachments/assets/e485eeb4-da53-4134-bec6-a7bde0645535" />
 CPU: 8 cores
