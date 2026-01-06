@@ -1,5 +1,17 @@
 ***создать новый проект в Яндекс облако или на любых ВМ, докере***  
-Привет
+*Стек*  
+Virtual Box 7.2.4  
+https://www.virtualbox.org/wiki/Downloads   
+Ubuntu Server 25.10, т.к. версия новее требующейся  
+https://ubuntu.com/download/server#release-notes-tab-lts 
+
+Характеристики ВМ  
+RAM: 16GB  
+<img width="1632" height="334" alt="image" src="https://github.com/user-attachments/assets/e485eeb4-da53-4134-bec6-a7bde0645535" />
+CPU: 8 cores
+<img width="1629" height="347" alt="image" src="https://github.com/user-attachments/assets/553764b0-4c85-4a0b-ad24-78a814b8084d" />
+VDI(SSD): 200GB
+<img width="894" height="443" alt="image" src="https://github.com/user-attachments/assets/c0380803-eb86-4e0d-9a75-bc93e9fc2207" />
 
 ***далее создать инстанс виртуальной машины с дефолтными параметрами***  
 Привет
