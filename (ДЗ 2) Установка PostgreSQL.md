@@ -28,8 +28,9 @@ bash get-docker.sh
 Разворачиваем контейнер
 <img width="1275" height="115" alt="image" src="https://github.com/user-attachments/assets/09c92722-94d2-4ede-bd4c-59fe053af37a" />
 Проверяем появились ли содержимое в папке 
-<img width="959" height="66" alt="image" src="https://github.com/user-attachments/assets/e911a1aa-b1da-4d3d-883e-b49622de539c" />
-
+<img width="959" height="66" alt="image" src="https://github.com/user-attachments/assets/e911a1aa-b1da-4d3d-883e-b49622de539c" />  
+Создаем БД work
+<img width="1174" height="391" alt="image" src="https://github.com/user-attachments/assets/30b27251-232a-40f6-856b-c0125853792f" />
 
 ***развернуть контейнер с клиентом postgres***\
 <img width="1269" height="129" alt="image" src="https://github.com/user-attachments/assets/8d87a3ba-0a2c-4463-b92a-501721dec826" />
