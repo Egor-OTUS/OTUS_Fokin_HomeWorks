@@ -62,12 +62,18 @@ VDI(SSD): 200GB
 
 
 ***задание: найти конфигурационный параметр в файлах раположенных в /etc/postgresql/15/main который надо поменять и поменяйте его***  
-**напишите что и почему поменяли**   
-Привет
+**напишите что и почему поменяли** 
+Необходимо изменить значение параметра data_directory в postgresql.conf на тот путь, куда мы переместили содержимое 
+<img width="725" height="130" alt="image" src="https://github.com/user-attachments/assets/752e6435-7acd-417f-ba65-2dec7831b91c" />
+
 
 ***попытайтесь запустить кластер - sudo -u postgres pg_ctlcluster 15 main start***  
-**напишите получилось или нет и почему**  
-Привет
+**напишите получилось или нет и почему**    
+Получилось т.к. мы изменили путь data_directory в postgresql.conf  
+<img width="733" height="68" alt="image" src="https://github.com/user-attachments/assets/50d9d84c-48d7-4a5d-a371-e6fc02877c44" />
 
 ***зайдите через через psql и проверьте содержимое ранее созданной таблицы***  
-Привет
+Данные остались на месте  
+<img width="286" height="138" alt="image" src="https://github.com/user-attachments/assets/8ee71fe2-12bc-4a0d-b6c3-2a4cccbf1c26" />
+<img width="286" height="138" alt="image" src="https://github.com/user-attachments/assets/8ee71fe2-12bc-4a0d-b6c3-2a4cccbf1c26" />
+
