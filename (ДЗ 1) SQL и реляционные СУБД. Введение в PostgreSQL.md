@@ -49,7 +49,7 @@ VDI(SSD): 200GB
 
 ***сделать select from persons во второй сессии***  
 **видите ли вы новую запись и если да то почему?**  
-Новых записей не видно т.к. в первой транзакции мы ещё не завершили commit, а в уровне READ COMMITTED это необходимо чтобы 2-я транзакция увидела запись  
+Новых записей не видно т.к. в первой транзакции мы ещё не завершили commit, а в READ COMMITTED вторая транзакция видит только зафиксированные данные
 <img width="336" height="134" alt="image" src="https://github.com/user-attachments/assets/58c506aa-bfc0-4a50-b54a-31ecc901edba" />
 
 **завершить первую транзакцию - commit;**    
@@ -64,21 +64,28 @@ VDI(SSD): 200GB
 <img width="341" height="187" alt="image" src="https://github.com/user-attachments/assets/233d8837-d0cf-43e3-9e44-7d8ebb53bc86" />
 
 ***начать новые но уже repeatable read транзации - set transaction isolation level repeatable read;***  
-Привет
+<img width="400" height="51" alt="image" src="https://github.com/user-attachments/assets/a8ff97ec-a8b6-4b3d-b11a-a56e54fea208" />
 
 ***в первой сессии добавить новую запись insert into persons(first_name, second_name) values('sveta', 'svetova');***  
-Привет
+<img width="701" height="62" alt="image" src="https://github.com/user-attachments/assets/c72f5613-1efe-4203-84e2-05090fdc6e0f" />
 
 ***сделать select* from persons во второй сессии***  
-**видите ли вы новую запись и если да то почему?**  
-**завершить первую транзакцию - commit;**  
-Привет
+**видите ли вы новую запись и если да то почему?**   
+Не видно новую запись, т.к В REPEATABLE READ транзакция «запоминает» снимок данных на момент начала. Новые записи, добавленные другими транзакциями, не видны до перезапуска транзакции.  
+<img width="404" height="201" alt="image" src="https://github.com/user-attachments/assets/c6046af6-ce49-492a-abed-e5410bdfb28d" />
 
-***сделать select from persons во второй сессии***  
-**видите ли вы новую запись и если да то почему?**  
+**завершить первую транзакцию - commit;**  
+<img width="755" height="97" alt="image" src="https://github.com/user-attachments/assets/6ae5f8a8-33a9-4c92-9fc1-5519c5ed492f" />
+
+***сделать select from persons во второй сессии***   
+**видите ли вы новую запись и если да то почему?**    
+Все ещё нет, т.к В REPEATABLE READ транзакция «запоминает» снимок данных на момент начала. Новые записи, добавленные другими транзакциями, не видны до перезапуска транзакции.  
+<img width="399" height="172" alt="image" src="https://github.com/user-attachments/assets/0cdfd50f-dac9-465e-b2f7-e61e669673c5" />
+
 **завершить вторую транзакцию**  
-Привет
+<img width="342" height="201" alt="image" src="https://github.com/user-attachments/assets/c3fd87ce-18fd-4e50-811a-ea7c40b69421" />
 
 ***сделать select * from persons во второй сессии***  
-**видите ли вы новую запись и если да то почему?**  
-Привет
+**видите ли вы новую запись и если да то почему?**   
+Теперь видно т.к. мы перезапустили транзакцию
+<img width="367" height="183" alt="image" src="https://github.com/user-attachments/assets/21525fdb-48c3-47b5-8566-dabc9abcc6b7" />
