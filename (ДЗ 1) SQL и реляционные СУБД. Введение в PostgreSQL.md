@@ -32,7 +32,8 @@ VDI(SSD): 200GB
 ***зайти вторым ssh (вторая сессия)***
 **запустить везде psql из под пользователя postgres**
 **выключить auto commit**  
-Привет
+<img width="358" height="128" alt="image" src="https://github.com/user-attachments/assets/9b53aced-ba47-4b9a-814b-e7f127f634b5" />
+
 
 ***сделать в первой сессии новую таблицу и наполнить ее данными create table persons(id serial, first_name text, second_name text); insert into persons(first_name, second_name) values('ivan', 'ivanov'); insert into persons(first_name, second_name) values('petr', 'petrov'); commit;***  
 Привет
