@@ -26,11 +26,8 @@ VDI(SSD): 200GB
 ***остановите postgres например через sudo -u postgres pg_ctlcluster 15 main stop***  
 <img width="968" height="185" alt="image" src="https://github.com/user-attachments/assets/a4fd2e51-c01d-4e6d-81d9-fcc2d4255147" />
 
-***создайте новый диск к ВМ размером 10GB***  
+***создайте новый диск к ВМ размером 10GB,добавьте свеже-созданный диск к виртуальной машине - надо зайти в режим ее редактирования и дальше выбрать пункт attach existing disk***  
 <img width="887" height="361" alt="image" src="https://github.com/user-attachments/assets/11409546-e8a5-47be-a80e-239d6899f841" />
-
-***добавьте свеже-созданный диск к виртуальной машине - надо зайти в режим ее редактирования и дальше выбрать пункт attach existing disk***  
-Привет
 
 ***проинициализируйте диск согласно инструкции и подмонтировать файловую систему, только не забывайте менять имя диска на актуальное, в вашем случае это скорее всего будет /dev/sdb - https://www.digitalocean.com/community/tutorials/how-to-partition-and-format-storage-devices-in-linux***  
 Привет
