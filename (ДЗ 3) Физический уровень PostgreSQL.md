@@ -75,5 +75,5 @@ VDI(SSD): 200GB
 ***зайдите через через psql и проверьте содержимое ранее созданной таблицы***  
 Данные остались на месте  
 <img width="286" height="138" alt="image" src="https://github.com/user-attachments/assets/8ee71fe2-12bc-4a0d-b6c3-2a4cccbf1c26" />
-<img width="286" height="138" alt="image" src="https://github.com/user-attachments/assets/8ee71fe2-12bc-4a0d-b6c3-2a4cccbf1c26" />
+
 
