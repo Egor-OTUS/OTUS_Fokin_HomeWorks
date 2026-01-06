@@ -15,12 +15,14 @@ VDI(SSD): 200GB
 
 ***далее создать инстанс виртуальной машины с дефолтными параметрами***  
 <img width="699" height="504" alt="image" src="https://github.com/user-attachments/assets/cd636082-89e2-4c14-a0c8-acc64ee452b3" />
-<img width="699" height="504" alt="image" src="https://github.com/user-attachments/assets/cd636082-89e2-4c14-a0c8-acc64ee452b3" />
-
-
 
 ***добавить свой ssh ключ в metadata ВМ***  
-Привет
+Генерирурем открытый ключ на своей машине  
+<img width="533" height="294" alt="image" src="https://github.com/user-attachments/assets/f474fc70-984a-40d0-b8f5-7780c8af96e2" />  
+Копируем ключ на ВМ  
+<img width="818" height="56" alt="image" src="https://github.com/user-attachments/assets/34d8b0ad-e51d-4cae-affe-151673e90f80" />
+Перекидываем ключ cat /tmp/id_rsa.pub >> ~ /.ssh/authorized.keys и проверяем содержимое файла  
+<img width="998" height="128" alt="image" src="https://github.com/user-attachments/assets/0ff33404-fba8-4128-b2ef-598815825784" />
 
 ***зайти удаленным ssh (первая сессия), не забывайте про ssh-add, поставить PostgreSQL***    
 Привет
