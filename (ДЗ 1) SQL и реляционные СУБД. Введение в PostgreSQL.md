@@ -36,10 +36,10 @@ VDI(SSD): 200GB
 
 
 ***сделать в первой сессии новую таблицу и наполнить ее данными create table persons(id serial, first_name text, second_name text); insert into persons(first_name, second_name) values('ivan', 'ivanov'); insert into persons(first_name, second_name) values('petr', 'petrov'); commit;***  
-Привет
+<img width="682" height="228" alt="image" src="https://github.com/user-attachments/assets/98a08a45-7f6e-4430-82af-7ae11133a13a" />
 
 ***посмотреть текущий уровень изоляции: show transaction isolation level***  
-Привет
+<img width="370" height="93" alt="image" src="https://github.com/user-attachments/assets/3ff60cab-4437-49ef-bf1c-b5f3053eda3a" />
 
 ***начать новую транзакцию в обоих сессиях с дефолтным (не меняя) уровнем изоляции***  
 Привет
