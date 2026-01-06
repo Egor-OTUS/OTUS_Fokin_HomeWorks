@@ -44,12 +44,12 @@ VDI(SSD): 200GB
 ***начать новую транзакцию в обоих сессиях с дефолтным (не меняя) уровнем изоляции***  
 <img width="359" height="71" alt="image" src="https://github.com/user-attachments/assets/0240ecef-df9b-4633-a013-d4f9dfd7202e" />
 
-***в первой сессии добавить новую запись insert into persons(first_name, second_name) values('sergey', 'sergeev');***  
+***в первой сессии добавить новую запись insert into persons(first_name, second_name) values('sergey', 'sergeev');***    
 <img width="713" height="54" alt="image" src="https://github.com/user-attachments/assets/ead6fb98-592a-4851-ae32-6ccd88719b11" />
 
 ***сделать select from persons во второй сессии***  
 **видите ли вы новую запись и если да то почему?**  
-Новых записей не видно т.к. в первой транзакции мы ещё не завершили commit, а в READ COMMITTED вторая транзакция видит только зафиксированные данные
+Новых записей не видно т.к. в первой транзакции мы ещё не завершили commit, а в READ COMMITTED вторая транзакция видит только зафиксированные данные  
 <img width="336" height="134" alt="image" src="https://github.com/user-attachments/assets/58c506aa-bfc0-4a50-b54a-31ecc901edba" />
 
 **завершить первую транзакцию - commit;**    
