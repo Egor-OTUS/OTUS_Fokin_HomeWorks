@@ -24,8 +24,10 @@ VDI(SSD): 200GB
 Перекидываем в /.ssh/authorized.keys и проверяем содержимое файла  
 <img width="998" height="128" alt="image" src="https://github.com/user-attachments/assets/0ff33404-fba8-4128-b2ef-598815825784" />
 
-***зайти удаленным ssh (первая сессия), не забывайте про ssh-add, поставить PostgreSQL***    
-Привет
+***зайти удаленным ssh (первая сессия), не забывайте про ssh-add, поставить PostgreSQL***
+<img width="994" height="904" alt="image" src="https://github.com/user-attachments/assets/adb2ae36-b787-4d67-8032-1d723d3e9f42" />
+Проверяем работоспособность кластера  
+<img width="1139" height="350" alt="image" src="https://github.com/user-attachments/assets/740d0e4e-0e59-49ea-9fe4-7ceaafe477da" />
 
 ***зайти вторым ssh (вторая сессия)***
 **запустить везде psql из под пользователя postgres**
