@@ -27,7 +27,7 @@ VDI(SSD): 200GB
 <img width="968" height="185" alt="image" src="https://github.com/user-attachments/assets/a4fd2e51-c01d-4e6d-81d9-fcc2d4255147" />
 
 ***создайте новый диск к ВМ размером 10GB***  
-Привет
+<img width="887" height="361" alt="image" src="https://github.com/user-attachments/assets/11409546-e8a5-47be-a80e-239d6899f841" />
 
 ***добавьте свеже-созданный диск к виртуальной машине - надо зайти в режим ее редактирования и дальше выбрать пункт attach existing disk***  
 Привет
