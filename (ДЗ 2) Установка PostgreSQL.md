@@ -25,6 +25,8 @@ bash get-docker.sh
 ***развернуть контейнер с PostgreSQL 15 смонтировав в него /var/lib/postgresql***\
 <img width="803" height="73" alt="image" src="https://github.com/user-attachments/assets/8872e8f9-efcf-414e-9fea-93d2c33d79d2" />
 <img width="1275" height="115" alt="image" src="https://github.com/user-attachments/assets/09c92722-94d2-4ede-bd4c-59fe053af37a" />
+<img width="959" height="66" alt="image" src="https://github.com/user-attachments/assets/e911a1aa-b1da-4d3d-883e-b49622de539c" />
+
 
 ***развернуть контейнер с клиентом postgres***\
 Привет
