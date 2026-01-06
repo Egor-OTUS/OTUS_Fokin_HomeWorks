@@ -44,10 +44,10 @@ bash get-docker.sh
 <img width="409" height="948" alt="image" src="https://github.com/user-attachments/assets/d19ba4fa-69e3-468a-9553-b99560869c86" />
 
 ***удалить контейнер с сервером***\
-Привет
+<img width="597" height="114" alt="image" src="https://github.com/user-attachments/assets/3f932eb0-88f7-48ad-a75a-25333e0cd10d" />
 
 ***создать его заново***\
-Привет
+<img width="1274" height="111" alt="image" src="https://github.com/user-attachments/assets/f0ae0b1d-1e51-47b7-9f7f-c8881a1f1c5b" />
 
 ***подключится снова из контейнера с клиентом к контейнеру с сервером***\
 Привет
