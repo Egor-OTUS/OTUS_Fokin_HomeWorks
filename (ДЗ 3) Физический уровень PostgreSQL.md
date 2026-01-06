@@ -46,19 +46,20 @@ VDI(SSD): 200GB
 
 
 ***перезагрузите инстанс и убедитесь, что диск остается примонтированным (если не так смотрим в сторону fstab)***  
-Диск примонтирован корректно
+Диск примонтирован корректно  
 <img width="413" height="72" alt="image" src="https://github.com/user-attachments/assets/a46b6eab-d4d3-4db7-a8b4-885d22668528" />
-<
 
 ***сделайте пользователя postgres владельцем /mnt/data - chown -R postgres:postgres /mnt/data/***  
-Привет
+<img width="542" height="147" alt="image" src="https://github.com/user-attachments/assets/7299ca3a-b133-41eb-83d2-8fbd079d3a00" />
 
 ***перенесите содержимое /var/lib/postgres/15 в /mnt/data - mv /var/lib/postgresql/15/mnt/data***  
-Привет
+<img width="519" height="68" alt="image" src="https://github.com/user-attachments/assets/6ca3f518-735b-4005-ba95-b5b1d84dd49a" />
 
 ***попытайтесь запустить кластер - sudo -u postgres pg_ctlcluster 15 main start***  
-**напишите получилось или нет и почему**  
-Привет
+**напишите получилось или нет и почему**   
+Не получилось поскольку пытается запуститься по пути /var/lib/postgresql/17/main, а там уже ничего нет
+<img width="583" height="52" alt="image" src="https://github.com/user-attachments/assets/04e7bd2e-faa3-4607-9d23-67c9c14523b1" />
+
 
 ***задание: найти конфигурационный параметр в файлах раположенных в /etc/postgresql/15/main который надо поменять и поменяйте его***  
 **напишите что и почему поменяли**   
