@@ -32,7 +32,7 @@ bash get-docker.sh
 
 
 ***развернуть контейнер с клиентом postgres***\
-Привет
+<img width="1269" height="129" alt="image" src="https://github.com/user-attachments/assets/8d87a3ba-0a2c-4463-b92a-501721dec826" />
 
 ***подключится из контейнера с клиентом к контейнеру с сервером и сделать таблицу с парой строк***\
 Привет
