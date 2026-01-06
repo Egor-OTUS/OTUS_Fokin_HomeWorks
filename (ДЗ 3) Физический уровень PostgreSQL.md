@@ -1,17 +1,30 @@
-***создайте виртуальную машину c Ubuntu 20.04/22.04 LTS в ЯО/Virtual Box/докере***  
-Привет  
+***создайте виртуальную машину c Ubuntu 20.04/22.04 LTS в ЯО/Virtual Box/докере***     
+Virtual Box 7.2.4  
+https://www.virtualbox.org/wiki/Downloads   
+Ubuntu Server 25.10, т.к. версия новее требующейся  
+https://ubuntu.com/download/server#release-notes-tab-lts 
 
-***поставьте на нее PostgreSQL 15 через sudo apt***  
-Привет  
+Характеристики ВМ  
+RAM: 16GB  
+<img width="1632" height="334" alt="image" src="https://github.com/user-attachments/assets/e485eeb4-da53-4134-bec6-a7bde0645535" />
+CPU: 8 cores
+<img width="1629" height="347" alt="image" src="https://github.com/user-attachments/assets/553764b0-4c85-4a0b-ad24-78a814b8084d" />
+VDI(SSD): 200GB
+<img width="894" height="443" alt="image" src="https://github.com/user-attachments/assets/c0380803-eb86-4e0d-9a75-bc93e9fc2207" />
 
-***проверьте что кластер запущен через sudo -u postgres pg_lsclusters***  
-Привет  
+
+***поставьте на нее PostgreSQL 15 через sudo apt*** 
+Устанавливается версия PostgreSQL 17 через apt т.к. она новее
+<img width="994" height="904" alt="image" src="https://github.com/user-attachments/assets/adb2ae36-b787-4d67-8032-1d723d3e9f42" />  
+ 
+***проверьте что кластер запущен через sudo -u postgres pg_lsclusters***    
+<img width="858" height="69" alt="image" src="https://github.com/user-attachments/assets/474bbaed-91ad-4289-9fb4-3774b7c6e061" />
 
 ***зайдите из под пользователя postgres в psql и сделайте произвольную таблицу с произвольным содержимым***  
-Привет  
+<img width="444" height="197" alt="image" src="https://github.com/user-attachments/assets/f13b9705-2352-4203-92cd-1e332200e473" />
 
 ***остановите postgres например через sudo -u postgres pg_ctlcluster 15 main stop***  
-Привет
+<img width="968" height="185" alt="image" src="https://github.com/user-attachments/assets/a4fd2e51-c01d-4e6d-81d9-fcc2d4255147" />
 
 ***создайте новый диск к ВМ размером 10GB***  
 Привет
