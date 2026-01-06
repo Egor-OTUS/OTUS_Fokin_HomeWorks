@@ -53,8 +53,5 @@ bash get-docker.sh
 <img width="1014" height="83" alt="image" src="https://github.com/user-attachments/assets/b7c01f4e-9bd0-4391-b687-1a08e490f722" />
 
 ***проверить, что данные остались на месте***\
-Данные остались на месте
+Данные остались на месте  
 <img width="322" height="132" alt="image" src="https://github.com/user-attachments/assets/2139b07e-da11-45e4-a9cf-eef73766b109" />
-
-***оставляйте в ЛК ДЗ комментарии что и как вы делали и как боролись с проблемами***\
-Привет
