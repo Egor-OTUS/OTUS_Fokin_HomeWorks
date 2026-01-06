@@ -69,7 +69,7 @@ VDI(SSD): 200GB
 
 ***попытайтесь запустить кластер - sudo -u postgres pg_ctlcluster 15 main start***  
 **напишите получилось или нет и почему**    
-Получилось т.к. мы изменили путь data_directory в postgresql.conf  
+Получилось т.к. мы изменили путь data_directory в postgresql.conf    
 <img width="733" height="68" alt="image" src="https://github.com/user-attachments/assets/50d9d84c-48d7-4a5d-a371-e6fc02877c44" />
 
 ***зайдите через через psql и проверьте содержимое ранее созданной таблицы***  
