@@ -48,16 +48,16 @@ VDI(SSD): 200GB
 <img width="713" height="54" alt="image" src="https://github.com/user-attachments/assets/ead6fb98-592a-4851-ae32-6ccd88719b11" />
 
 ***сделать select from persons во второй сессии***  
-**видите ли вы новую запись и если да то почему?**
-Новых записей не видно т.к. в первой транзакции мы ещё не завершили commit, а в уровне READ COMMITTED это необходимо чтобы 2-я транзакция увидела запись
+**видите ли вы новую запись и если да то почему?**  
+Новых записей не видно т.к. в первой транзакции мы ещё не завершили commit, а в уровне READ COMMITTED это необходимо чтобы 2-я транзакция увидела запись  
 <img width="336" height="134" alt="image" src="https://github.com/user-attachments/assets/58c506aa-bfc0-4a50-b54a-31ecc901edba" />
 
 **завершить первую транзакцию - commit;**    
 <img width="724" height="84" alt="image" src="https://github.com/user-attachments/assets/347f1235-61af-4785-abcc-1b84548e53df" />
 
 ***сделать select from persons во второй сессии***  
-**видите ли вы новую запись и если да то почему?**   
-Теперь записи видны поскольку мы совершили COMMIT в первой транзакции
+**видите ли вы новую запись и если да то почему?**     
+Теперь записи видны поскольку мы совершили COMMIT в первой транзакции  
 <img width="397" height="264" alt="image" src="https://github.com/user-attachments/assets/a8d78df2-8b11-4f25-aa34-0960ba9b97b7" />
 
 **завершите транзакцию во второй сессии**    
