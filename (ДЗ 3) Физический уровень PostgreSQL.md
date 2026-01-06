@@ -15,8 +15,8 @@ VDI(SSD): 200GB
 
 ***поставьте на нее PostgreSQL 15 через sudo apt*** 
 Устанавливается версия PostgreSQL 17 через apt т.к. она новее
-<img width="994" height="904" alt="image" src="https://github.com/user-attachments/assets/adb2ae36-b787-4d67-8032-1d723d3e9f42" />  
- 
+<img width="983" height="225" alt="image" src="https://github.com/user-attachments/assets/c0be7e82-fd61-4095-883f-4cddaafa0fe0" />
+
 ***проверьте что кластер запущен через sudo -u postgres pg_lsclusters***    
 <img width="858" height="69" alt="image" src="https://github.com/user-attachments/assets/474bbaed-91ad-4289-9fb4-3774b7c6e061" />
 
