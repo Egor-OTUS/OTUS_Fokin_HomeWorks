@@ -45,17 +45,23 @@ VDI(SSD): 200GB
 <img width="359" height="71" alt="image" src="https://github.com/user-attachments/assets/0240ecef-df9b-4633-a013-d4f9dfd7202e" />
 
 ***в первой сессии добавить новую запись insert into persons(first_name, second_name) values('sergey', 'sergeev');***  
-Привет
+<img width="713" height="54" alt="image" src="https://github.com/user-attachments/assets/ead6fb98-592a-4851-ae32-6ccd88719b11" />
 
 ***сделать select from persons во второй сессии***  
 **видите ли вы новую запись и если да то почему?**
-**завершить первую транзакцию - commit;**  
-Привет
+Новых записей не видно т.к. в первой транзакции мы ещё не завершили commit, а в уровне READ COMMITTED это необходимо чтобы 2-я транзакция увидела запись
+<img width="336" height="134" alt="image" src="https://github.com/user-attachments/assets/58c506aa-bfc0-4a50-b54a-31ecc901edba" />
+
+**завершить первую транзакцию - commit;**    
+<img width="724" height="84" alt="image" src="https://github.com/user-attachments/assets/347f1235-61af-4785-abcc-1b84548e53df" />
 
 ***сделать select from persons во второй сессии***  
-**видите ли вы новую запись и если да то почему?**    
-**завершите транзакцию во второй сессии**   
-Привет
+**видите ли вы новую запись и если да то почему?**   
+Теперь записи видны, причина аналогичная
+<img width="397" height="264" alt="image" src="https://github.com/user-attachments/assets/a8d78df2-8b11-4f25-aa34-0960ba9b97b7" />
+
+**завершите транзакцию во второй сессии**    
+<img width="341" height="187" alt="image" src="https://github.com/user-attachments/assets/233d8837-d0cf-43e3-9e44-7d8ebb53bc86" />
 
 ***начать новые но уже repeatable read транзации - set transaction isolation level repeatable read;***  
 Привет
