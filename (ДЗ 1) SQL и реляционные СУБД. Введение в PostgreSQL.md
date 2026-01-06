@@ -42,7 +42,7 @@ VDI(SSD): 200GB
 <img width="370" height="93" alt="image" src="https://github.com/user-attachments/assets/3ff60cab-4437-49ef-bf1c-b5f3053eda3a" />
 
 ***начать новую транзакцию в обоих сессиях с дефолтным (не меняя) уровнем изоляции***  
-Привет
+<img width="359" height="71" alt="image" src="https://github.com/user-attachments/assets/0240ecef-df9b-4633-a013-d4f9dfd7202e" />
 
 ***в первой сессии добавить новую запись insert into persons(first_name, second_name) values('sergey', 'sergeev');***  
 Привет
