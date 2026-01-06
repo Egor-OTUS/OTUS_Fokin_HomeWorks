@@ -14,7 +14,10 @@ VDI(SSD): 200GB
 <img width="894" height="443" alt="image" src="https://github.com/user-attachments/assets/c0380803-eb86-4e0d-9a75-bc93e9fc2207" />
 
 ***далее создать инстанс виртуальной машины с дефолтными параметрами***  
-Привет
+<img width="699" height="504" alt="image" src="https://github.com/user-attachments/assets/cd636082-89e2-4c14-a0c8-acc64ee452b3" />
+<img width="699" height="504" alt="image" src="https://github.com/user-attachments/assets/cd636082-89e2-4c14-a0c8-acc64ee452b3" />
+
+
 
 ***добавить свой ssh ключ в metadata ВМ***  
 Привет
