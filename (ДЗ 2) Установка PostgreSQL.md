@@ -32,11 +32,12 @@ bash get-docker.sh
 Создаем БД work
 <img width="1174" height="391" alt="image" src="https://github.com/user-attachments/assets/30b27251-232a-40f6-856b-c0125853792f" />
 
-***развернуть контейнер с клиентом postgres***\
-<img width="1269" height="129" alt="image" src="https://github.com/user-attachments/assets/8d87a3ba-0a2c-4463-b92a-501721dec826" />
-
-***подключится из контейнера с клиентом к контейнеру с сервером и сделать таблицу с парой строк***\
-Привет
+***развернуть контейнер с клиентом postgres, подключится из контейнера с клиентом к контейнеру с сервером и сделать таблицу с парой строк***\
+<img width="1045" height="100" alt="image" src="https://github.com/user-attachments/assets/5f51e39c-fe21-40c1-bdab-223896687d92" />
+Создаем таблицу и строки
+<img width="447" height="184" alt="image" src="https://github.com/user-attachments/assets/66c3589d-236b-4a9e-8d7f-1aa8d70b77fa" />
+Проверяем данные
+<img width="367" height="106" alt="image" src="https://github.com/user-attachments/assets/aa5b3320-2982-472a-bc52-03ea19f34dea" />
 
 ***подключится к контейнеру с сервером с ноутбука/компьютера извне инстансов ЯО/места установки докера***\
 Привет
