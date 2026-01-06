@@ -2,7 +2,7 @@
 *Стек*  
 Virtual Box 7.2.4  
 https://www.virtualbox.org/wiki/Downloads   
-Ubuntu Server 25.10, т.к. версия новее требующейся  
+Ubuntu Server 25.10
 https://ubuntu.com/download/server#release-notes-tab-lts 
 
 Характеристики ВМ  
