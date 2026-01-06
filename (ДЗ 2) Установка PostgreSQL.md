@@ -15,13 +15,15 @@ VDI(SSD): 200GB
 
 
 ***поставить на нем Docker Engine***\
-Привет
+curl -fsSL https://get.docker.com -o get-docker.sh  
+bash get-docker.sh   
+ <img width="974" height="133" alt="image" src="https://github.com/user-attachments/assets/7165829d-35d3-4678-acf1-fe4daf8be440" />
 
 ***сделать каталог /var/lib/postgres***\
 <img width="396" height="50" alt="image" src="https://github.com/user-attachments/assets/8417904e-2c32-470e-9a21-76b8cb4722ff" />
 
 ***развернуть контейнер с PostgreSQL 15 смонтировав в него /var/lib/postgresql***\
-Привет
+<img width="1275" height="115" alt="image" src="https://github.com/user-attachments/assets/09c92722-94d2-4ede-bd4c-59fe053af37a" />
 
 ***развернуть контейнер с клиентом postgres***\
 Привет
