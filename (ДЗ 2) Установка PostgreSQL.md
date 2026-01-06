@@ -24,20 +24,20 @@ bash get-docker.sh
 
 ***развернуть контейнер с PostgreSQL 15 смонтировав в него /var/lib/postgresql***\  
 Создаем docker-сеть  
-<img width="803" height="73" alt="image" src="https://github.com/user-attachments/assets/8872e8f9-efcf-414e-9fea-93d2c33d79d2" />   
-Разворачиваем контейнер
-<img width="1275" height="115" alt="image" src="https://github.com/user-attachments/assets/09c92722-94d2-4ede-bd4c-59fe053af37a" />
-Проверяем появились ли содержимое в папке 
-<img width="959" height="66" alt="image" src="https://github.com/user-attachments/assets/e911a1aa-b1da-4d3d-883e-b49622de539c" />  
-Создаем БД work
-<img width="1174" height="391" alt="image" src="https://github.com/user-attachments/assets/30b27251-232a-40f6-856b-c0125853792f" />
+<img width="803" height="73" alt="image" src="https://github.com/user-attachments/assets/8872e8f9-efcf-414e-9fea-93d2c33d79d2" />     
+Разворачиваем контейнер  
+<img width="1275" height="115" alt="image" src="https://github.com/user-attachments/assets/09c92722-94d2-4ede-bd4c-59fe053af37a" />  
+Проверяем появились ли содержимое в папке   
+<img width="959" height="66" alt="image" src="https://github.com/user-attachments/assets/e911a1aa-b1da-4d3d-883e-b49622de539c" />    
+Создаем БД work  
+<img width="1174" height="391" alt="image" src="https://github.com/user-attachments/assets/30b27251-232a-40f6-856b-c0125853792f" />  
 
 ***развернуть контейнер с клиентом postgres, подключится из контейнера с клиентом к контейнеру с сервером и сделать таблицу с парой строк***\
-<img width="1045" height="100" alt="image" src="https://github.com/user-attachments/assets/5f51e39c-fe21-40c1-bdab-223896687d92" />
-Создаем таблицу и строки
-<img width="447" height="184" alt="image" src="https://github.com/user-attachments/assets/66c3589d-236b-4a9e-8d7f-1aa8d70b77fa" />
-Проверяем данные
-<img width="367" height="106" alt="image" src="https://github.com/user-attachments/assets/aa5b3320-2982-472a-bc52-03ea19f34dea" />
+<img width="1045" height="100" alt="image" src="https://github.com/user-attachments/assets/5f51e39c-fe21-40c1-bdab-223896687d92" />  
+Создаем таблицу и строки  
+<img width="447" height="184" alt="image" src="https://github.com/user-attachments/assets/66c3589d-236b-4a9e-8d7f-1aa8d70b77fa" />  
+Проверяем данные  
+<img width="367" height="106" alt="image" src="https://github.com/user-attachments/assets/aa5b3320-2982-472a-bc52-03ea19f34dea" />  
 
 ***подключится к контейнеру с сервером с ноутбука/компьютера извне инстансов ЯО/места установки докера***\
 Привет
