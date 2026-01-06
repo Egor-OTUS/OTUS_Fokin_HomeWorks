@@ -50,10 +50,10 @@ bash get-docker.sh
 <img width="1274" height="111" alt="image" src="https://github.com/user-attachments/assets/f0ae0b1d-1e51-47b7-9f7f-c8881a1f1c5b" />
 
 ***подключится снова из контейнера с клиентом к контейнеру с сервером***\
-Привет
+<img width="1014" height="83" alt="image" src="https://github.com/user-attachments/assets/b7c01f4e-9bd0-4391-b687-1a08e490f722" />
 
 ***проверить, что данные остались на месте***\
-Привет
+
 
 ***оставляйте в ЛК ДЗ комментарии что и как вы делали и как боролись с проблемами***\
 Привет
