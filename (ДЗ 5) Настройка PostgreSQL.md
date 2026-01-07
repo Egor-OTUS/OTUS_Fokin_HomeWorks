@@ -31,7 +31,7 @@ pgbench -i -U postgres homework
 <img width="555" height="356" alt="image" src="https://github.com/user-attachments/assets/28762241-7472-4873-9323-1179a2e98415" />
 
 Нагрузка с измененными параметрами tcp = 5443  
-****<img width="552" height="374" alt="image" src="https://github.com/user-attachments/assets/194596bc-99fe-4c13-96a2-3b870760329f" />
+<img width="552" height="374" alt="image" src="https://github.com/user-attachments/assets/194596bc-99fe-4c13-96a2-3b870760329f" />
 
 ***настроить кластер PostgreSQL 15 на максимальную производительность не обращая внимание на возможные проблемы с надежностью в случае аварийной перезагрузки виртуальной машины***   
 ***написать какого значения tps удалось достичь, показать какие параметры в какие значения устанавливали и почему***
