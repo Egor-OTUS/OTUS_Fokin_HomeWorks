@@ -63,12 +63,11 @@ Ubuntu Server 25.10
 ***Отключить Автовакуум на конкретной таблице***  
 <img width="484" height="37" alt="image" src="https://github.com/user-attachments/assets/152ade88-0303-4732-a353-1f7caef8632e" />
 
-Убедимся, что автовакуум для таблицы отключен
+Убедимся, что автовакуум для таблицы отключен  
 <img width="525" height="88" alt="image" src="https://github.com/user-attachments/assets/a85c3f16-bad7-4a69-8eca-c84caedd7699" />
 
 ***10 раз обновить все строчки и добавить к каждой строчке любой символ***  
 <img width="317" height="346" alt="image" src="https://github.com/user-attachments/assets/733de5f5-c764-489b-8fef-628d27543cf4" />
-
 
 ***Посмотреть размер файла с таблицей***  
 **Объясните полученный результат**
