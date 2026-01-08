@@ -39,30 +39,43 @@ Ubuntu Server 25.10
 
 
 ***5 раз обновить все строчки и добавить к каждой строчке любой символ***   
-
+<img width="318" height="160" alt="image" src="https://github.com/user-attachments/assets/4f08d641-93af-4dfc-ba5c-79c87d4afa46" />
 
 ***Посмотреть количество мертвых строчек в таблице и когда последний раз приходил автовакуум***  
-Привет
+<img width="464" height="200" alt="image" src="https://github.com/user-attachments/assets/1d10345c-d58c-441c-998a-9d2c7fed9af4" />
 
 ***Подождать некоторое время, проверяя, пришел ли автовакуум***  
-Привет
+Не пришёл
+<img width="468" height="260" alt="image" src="https://github.com/user-attachments/assets/ed8bfa77-d12c-442d-9fed-e859506d8698" />
+
+Проверяем активен ли автовакуум
+<img width="303" height="116" alt="image" src="https://github.com/user-attachments/assets/9c406301-cb13-44aa-83af-2d90b8f72891" />
 
 ***5 раз обновить все строчки и добавить к каждой строчке любой символ***  
-Привет
+<img width="308" height="165" alt="image" src="https://github.com/user-attachments/assets/3bb91d40-dbb2-4deb-b195-a4ba902e6c96" />
 
 ***Посмотреть размер файла с таблицей***  
-Привет
+<img width="530" height="80" alt="image" src="https://github.com/user-attachments/assets/2c967b2f-a5f2-48ff-9328-cfdca00f895f" />
+
+<img width="465" height="166" alt="image" src="https://github.com/user-attachments/assets/7d46459c-ee64-4599-8ae1-64d7657c9f79" />
+
 
 ***Отключить Автовакуум на конкретной таблице***  
-Привет
+<img width="484" height="37" alt="image" src="https://github.com/user-attachments/assets/152ade88-0303-4732-a353-1f7caef8632e" />
+
+Убедимся, что автовакуум для таблицы отключен
+<img width="525" height="88" alt="image" src="https://github.com/user-attachments/assets/a85c3f16-bad7-4a69-8eca-c84caedd7699" />
 
 ***10 раз обновить все строчки и добавить к каждой строчке любой символ***  
-Привет
+<img width="317" height="346" alt="image" src="https://github.com/user-attachments/assets/733de5f5-c764-489b-8fef-628d27543cf4" />
+
 
 ***Посмотреть размер файла с таблицей***  
 **Объясните полученный результат**
 **Не забудьте включить автовакуум)**  
-Привет
+
+<img width="540" height="90" alt="image" src="https://github.com/user-attachments/assets/87c06dcb-6756-4905-a97f-1f0fca1dc9d3" />
+
 
 ***Задание со *:
 Написать анонимную процедуру, в которой в цикле 10 раз обновятся все строчки в искомой таблице.
