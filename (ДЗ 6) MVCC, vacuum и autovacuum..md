@@ -1,15 +1,20 @@
 ***Создать инстанс ВМ с 2 ядрами и 4 Гб ОЗУ и SSD 10GB***  
-Virtual Box 7.2.4 
-ОС  Ubuntu Server 25.10
+Virtual Box 7.2.4   
+Ubuntu Server 25.10  
+<img width="613" height="117" alt="image" src="https://github.com/user-attachments/assets/31f956c5-0fa9-40d8-bce0-c3efe913f3dd" />  
+<img width="546" height="61" alt="image" src="https://github.com/user-attachments/assets/8ec159a2-e973-43ef-bbd3-b9ab9586e53d" />  
+<img width="631" height="286" alt="image" src="https://github.com/user-attachments/assets/34c0e431-99cc-4b19-a4be-dca119c528b5" />
 
 ***Установить на него PostgreSQL 15 с дефолтными настройками***  
-Устанавливается будет PostgreSQL 17, т.к. версия новее и говорили, что можно работать с ней
+Устанавливается будет PostgreSQL 17, т.к. версия новее и говорили, что можно работать с ней  
+<img width="829" height="36" alt="image" src="https://github.com/user-attachments/assets/2302f397-02fa-4c49-a4dd-8b9cb1b90a17" />
 
 ***Создать БД для тестов: выполнить pgbench -i postgres***  
-Привет
+<img width="560" height="179" alt="image" src="https://github.com/user-attachments/assets/76e657d6-0139-44f7-9647-bd96a451f539" />
+
 
 ***Запустить pgbench -c8 -P 6 -T 60 -U postgres postgres***  
-Привет
+<img width="583" height="419" alt="image" src="https://github.com/user-attachments/assets/cd4914fc-2e2d-41dd-b6be-0353f5c8dff6" />
 
 ***Применить параметры настройки PostgreSQL из прикрепленного к материалам занятия файла***  
 **Протестировать заново
