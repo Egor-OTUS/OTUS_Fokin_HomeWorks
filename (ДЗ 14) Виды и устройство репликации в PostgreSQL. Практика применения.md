@@ -19,22 +19,29 @@ PostgreSQL 17
 После чего перезапускаем кластер на каждой ВМ для применения измений
 
 ***На 1 ВМ создаем таблицы test для записи, test2 для запросов на чтение.***  
-Создаем таблицу на 1 ВМ  
-<img width="520" height="127" alt="image" src="https://github.com/user-attachments/assets/3a4f0c10-e73c-4d40-90cb-6054dc5a217d" />
+Создаем БД homework и таблицы test и test2 на ВМ 1  
+<img width="518" height="278" alt="image" src="https://github.com/user-attachments/assets/c9713678-bcd5-40fe-a949-e0e96d9ee8fa" />
+
+
 
 
 
 
 ***Создаем публикацию таблицы test и подписываемся на публикацию таблицы test2 с ВМ №2.***  
 Создаем публикацию  
-<img width="444" height="37" alt="image" src="https://github.com/user-attachments/assets/baa12b87-3efb-48c1-9841-36841d507ed5" />
+
 
 Проверяем публикацию  
-<img width="612" height="115" alt="image" src="https://github.com/user-attachments/assets/76381bac-0f00-406a-a955-0e78f871c94c" />
+
+
+Подписываемся на публикацию ВМ2
+
+Проверяем статус подписки
 
 
 ***На 2 ВМ создаем таблицы test2 для записи, test для запросов на чтение.***  
-Создаем таблицу на ВМ 2  
+Создаем БД homework и таблицы test и test2 на ВМ 2  
+<img width="514" height="355" alt="image" src="https://github.com/user-attachments/assets/ec60fd9c-3e0e-40fd-9613-d1f8591a5ccf" />
 
 
 
@@ -45,6 +52,20 @@ PostgreSQL 17
 Проверяем публикацию  
 
 
+Подписываемся на публикацию ВМ 1
+
+
+Проверяем статус подписки
+
+
 
 ***3 ВМ использовать как реплику для чтения и бэкапов (подписаться на таблицы из ВМ №1 и №2 ).***  
-Привет
+Создаем БД homework и таблицы test и test2 на ВМ 3  
+<img width="855" height="502" alt="image" src="https://github.com/user-attachments/assets/57f89112-fc86-4812-b25c-d9a802325c92" />
+
+Подписываемся
+
+Проверяем подписки
+
+Проверяем видны ли данные с таблиц
+
