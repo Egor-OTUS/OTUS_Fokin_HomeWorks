@@ -34,10 +34,10 @@ Ubuntu Server 25.10
 <img width="494" height="337" alt="image" src="https://github.com/user-attachments/assets/afde1278-e5bf-46a5-b7a7-9d5e1d10188d" />
 
 ***Посмотреть размер файла с таблицей***  
-<img width="546" height="81" alt="image" src="https://github.com/user-attachments/assets/ca64f202-66e8-46b7-a6a1-7faf3b2a7854" />
+<img width="546" height="81" alt="image" src="https://github.com/user-attachments/assets/ca64f202-66e8-46b7-a6a1-7faf3b2a7854" />  
 
-***5 раз обновить все строчки и добавить к каждой строчке любой символ*** 
-<img width="408" height="163" alt="image" src="https://github.com/user-attachments/assets/700a7d62-30b9-4faf-b8c3-b24f454f14eb" />
+***5 раз обновить все строчки и добавить к каждой строчке любой символ***   
+<img width="408" height="163" alt="image" src="https://github.com/user-attachments/assets/700a7d62-30b9-4faf-b8c3-b24f454f14eb" />  
 
 ***Посмотреть количество мертвых строчек в таблице и когда последний раз приходил автовакуум***  
 Привет
