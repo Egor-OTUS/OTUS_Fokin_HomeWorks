@@ -17,7 +17,7 @@ Ubuntu Server 25.10
 <img width="583" height="419" alt="image" src="https://github.com/user-attachments/assets/cd4914fc-2e2d-41dd-b6be-0353f5c8dff6" />
 
 ***Применить параметры настройки PostgreSQL из прикрепленного к материалам занятия файла***  
-**Протестировать заново
+**Протестировать заново  
 Что изменилось и почему?**  
 Добавляем параметры в /etc/postgresql/17/main/postgresql.conf и перезапускаем кластер  
 <img width="443" height="343" alt="image" src="https://github.com/user-attachments/assets/08617c6c-95b5-4496-aa43-7c5d62aeb514" />
