@@ -6,7 +6,8 @@ https://ubuntu.com/download/server#release-notes-tab-lts
 PostgreSQL 17  
 
 Настраиваем NAT чтобы ВМ могли обращаться друг к другу   
-Изменяем на всех ВМ параметр wal_level = logical в файле /etc/postgresql/17/main/postgresql.conf и перезапускаем кластер
+Изменяем на всех ВМ параметр wal_level = logical в файле /etc/postgresql/17/main/postgresql.conf и перезапускаем кластер  
+Также даем на всех ВМ возможность подключаться ко всем БД со всех ip в файле /etc/postgresql/17/main/pg_hba.conf и перезапускаем кластер  
 
 ***На 1 ВМ создаем таблицы test для записи, test2 для запросов на чтение.***  
 Привет
