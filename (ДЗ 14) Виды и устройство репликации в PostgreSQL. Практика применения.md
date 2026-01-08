@@ -1,3 +1,11 @@
+Стек  
+Virtual Box 7.2.4  
+https://www.virtualbox.org/wiki/Downloads  
+Ubuntu Server 25.10  
+https://ubuntu.com/download/server#release-notes-tab-lts  
+PostgreSQL 17  
+Настроен NAT чтобы ВМ могли обращаться друг к другу  
+
 ***На 1 ВМ создаем таблицы test для записи, test2 для запросов на чтение.***  
 Привет
 
