@@ -4,7 +4,9 @@ https://www.virtualbox.org/wiki/Downloads
 Ubuntu Server 25.10  
 https://ubuntu.com/download/server#release-notes-tab-lts  
 PostgreSQL 17  
-Настроен NAT чтобы ВМ могли обращаться друг к другу  
+
+Настраиваем NAT чтобы ВМ могли обращаться друг к другу   
+Изменяем на всех ВМ параметр wal_level = logical в файле /etc/postgresql/17/main/postgresql.conf и перезапускаем кластер
 
 ***На 1 ВМ создаем таблицы test для записи, test2 для запросов на чтение.***  
 Привет
