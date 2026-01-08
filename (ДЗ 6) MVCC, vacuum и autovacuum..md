@@ -1,8 +1,8 @@
 ***Создать инстанс ВМ с 2 ядрами и 4 Гб ОЗУ и SSD 10GB***  
 Virtual Box 7.2.4   
 Ubuntu Server 25.10  
-<img width="613" height="117" alt="image" src="https://github.com/user-attachments/assets/31f956c5-0fa9-40d8-bce0-c3efe913f3dd" />  
 <img width="546" height="61" alt="image" src="https://github.com/user-attachments/assets/8ec159a2-e973-43ef-bbd3-b9ab9586e53d" />  
+<img width="613" height="117" alt="image" src="https://github.com/user-attachments/assets/31f956c5-0fa9-40d8-bce0-c3efe913f3dd" /> 
 <img width="631" height="286" alt="image" src="https://github.com/user-attachments/assets/34c0e431-99cc-4b19-a4be-dca119c528b5" />
 
 ***Установить на него PostgreSQL 15 с дефолтными настройками***  
