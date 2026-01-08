@@ -22,9 +22,13 @@ Ubuntu Server 25.10
 Добавляем параметры в /etc/postgresql/17/main/postgresql.conf и перезапускаем кластер  
 <img width="443" height="343" alt="image" src="https://github.com/user-attachments/assets/08617c6c-95b5-4496-aa43-7c5d62aeb514" />
 
-Увеличилось кол-во транзакций в секунду (tps)
+Увеличилось кол-во транзакций в секунду (tps) и также снизилась средняя задержка  
 <img width="582" height="422" alt="image" src="https://github.com/user-attachments/assets/241a9377-b164-474a-8c37-af133841ae8e" />
 
+Транзакции увеличили благодаря shared_buffers, effective_cache_size, max_wal_size     
+Задержку снизили благодаря work_mem   
+
+Разница в результате не слишком заметна т.к. у нас достаточно слабая ВМ
 
 ***Создать таблицу с текстовым полем и заполнить случайными или сгенерированными данным в размере 1млн строк***  
 Привет
