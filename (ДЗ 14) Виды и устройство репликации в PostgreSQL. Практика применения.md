@@ -16,7 +16,7 @@ PostgreSQL 17
 <img width="628" height="19" alt="image" src="https://github.com/user-attachments/assets/1996bd07-bece-4b1b-8c85-da25c3dc2bb6" />  
 <img width="564" height="39" alt="image" src="https://github.com/user-attachments/assets/8cdef236-0934-42cd-b9cc-c91ca7ee9e33" />  
 
-После чего перезапускаем кластер на каждой ВМ для применения измений
+После чего перезапускаем кластер на каждой ВМ для применения изменений
 
 ***На 1 ВМ создаем таблицы test для записи, test2 для запросов на чтение.***  
 Создаем БД homework и таблицы test и test2 на ВМ1  
