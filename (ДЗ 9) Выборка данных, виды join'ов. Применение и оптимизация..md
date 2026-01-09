@@ -8,7 +8,7 @@ VDI(SSD): 200GB
 PostgreSQL 17  
 
 ***Реализовать прямое соединение двух или более таблиц***  
-Привет
+Создаем БД и таблицы
 
 ***Реализовать левостороннее (или правостороннее) соединение двух или более таблиц***  
 Привет
@@ -25,8 +25,25 @@ PostgreSQL 17
 ***Сделать комментарии на каждый запрос
 К работе приложить структуру таблиц, для которых
 выполнялись соединения***
-????
 
-***Задание со звездочкой*
-Придумайте 3 своих метрики на основе показанных представлений, отправьте их через ЛК, а так же поделитесь с коллегами в слаке***  
-Привет
+CREATE TABLE customers (
+    customer_id SERIAL PRIMARY KEY,
+    first_name VARCHAR(50) NOT NULL,
+    lastname VARCHAR(50) NOT NULL,
+    email VARCHAR(100) UNIQUE
+);
+
+CREATE TABLE products (
+    product_id SERIAL PRIMARY KEY,
+    product_name VARCHAR(100) NOT NULL,
+    price DECIMAL(10, 2) NOT NULL,
+    category VARCHAR(50)
+);
+
+CREATE TABLE orders (
+    order_id SERIAL PRIMARY KEY,
+    customer_id INT NOT NULL REFERENCES customers(customer_id) ON DELETE CASCADE,
+    product_id INT NOT NULL REFERENCES products(product_id) ON DELETE CASCADE,
+    order_date DATE NOT NULL,
+    quantity INT NOT NULL DEFAULT 1
+);
