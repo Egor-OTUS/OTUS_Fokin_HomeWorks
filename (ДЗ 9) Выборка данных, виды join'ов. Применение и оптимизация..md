@@ -15,7 +15,7 @@ PostgreSQL 17
 Добавляем данные в таблицы  
 <img width="718" height="390" alt="image" src="https://github.com/user-attachments/assets/313d5176-d9e4-4a46-8619-655fcac387b8" />
 
-Получаем заказы с данными клиентов и товаров с помощью прямого соединения
+Получаем заказы с данными клиентов и товаров с помощью прямого соединения  
 *INNER JOIN возвращает только строки, где есть совпадения по условиям ON*    
 <img width="849" height="385" alt="image" src="https://github.com/user-attachments/assets/18748360-d6ff-4936-881c-b68d67619974" />
 
