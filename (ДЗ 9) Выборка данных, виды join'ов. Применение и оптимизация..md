@@ -48,12 +48,12 @@ PostgreSQL 17
 К работе приложить структуру таблиц, для которых
 выполнялись соединения***
 
-CREATE TABLE customers (  
-    customer_id SERIAL PRIMARY KEY,  
-    first_name VARCHAR(50) NOT NULL,  
-    lastname VARCHAR(50) NOT NULL,  
-    email VARCHAR(100) UNIQUE  
-);  
+    CREATE TABLE customers (  
+        customer_id SERIAL PRIMARY KEY,  
+        first_name VARCHAR(50) NOT NULL,  
+        lastname VARCHAR(50) NOT NULL,  
+        email VARCHAR(100) UNIQUE  
+    );  
 
 INSERT INTO customers (first_name, lastname, email) VALUES  
     ('Анна', 'Иванова', 'anna.ivanova@example.com'),  
