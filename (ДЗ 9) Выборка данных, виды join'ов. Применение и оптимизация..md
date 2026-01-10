@@ -1,11 +1,11 @@
-Стек  
-Virtual Box 7.2.4  
+**Стек**  
+*Virtual Box 7.2.4  
 Ubuntu Server 25.10  
 Характеристики ВМ  
 RAM: 16GB  
 CPU: 8 cores  
 VDI(SSD): 200GB  
-PostgreSQL 17  
+PostgreSQL 17* 
 
 ***Реализовать прямое соединение двух или более таблиц***  
 
